@@ -1,0 +1,30 @@
+{
+  "name": "work.io",
+  "version": "1.0.0",
+  "description": "Work.io",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/style.css -w",
+    "live": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdmarufsarker/work.io.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "sass"
+  ],
+  "author": "Maruf, Aashiq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdmarufsarker/work.io/issues"
+  },
+  "homepage": "https://github.com/mdmarufsarker/work.io#readme",
+  "devDependencies": {
+    "compile-sass": "^1.1.3",
+    "live-server": "^1.2.1"
+  }
+}
